@@ -10,7 +10,7 @@ python taskpub.py
 
 ### 注意
 * 测试广播任务，需要开启多个终端执行上述命令
-* 广播任务，多个worker上收到的任务id是相同的，做result backend会覆盖。
+* 广播任务，多个worker上收到的任务id是相同的，做result backend会覆盖。[参见](https://docs.celeryq.dev/en/stable/userguide/routing.html#broadcast)
 
 eg：
 worker1日志
